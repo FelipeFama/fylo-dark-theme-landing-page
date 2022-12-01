@@ -1,0 +1,63 @@
+@import "_fourthSection.scss";
+
+.third-section {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 9rem;
+  margin-bottom: 10.5rem;
+  z-index: 0;
+  & section {
+    flex-direction: column;
+    gap: 1.8rem;
+    padding-top: 3.1rem;
+    padding-bottom: 1.8rem;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+    background-color: $dark-blue-testimonials;
+    border-radius: 10px;
+    &:first-child {
+      position: relative;
+      &::before {
+        content: url(/assets/images/bg-quotes.png);
+        background-size: 4rem;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: -38px;
+        left: -0.5rem;
+        z-index: -1;
+      }
+    }
+  }
+  & .feedback {
+    line-height: 1.45rem;
+    font-weight: 400;
+    word-spacing: 1px;
+    font-size: 1.05rem;
+  }
+  & .author-details {
+    flex-direction: row;
+    gap: 0.9rem;
+    align-items: center;
+    line-height: 1rem;
+  }
+  & .author-name {
+    font-weight: 700;
+    font-size: 0.65rem;
+    letter-spacing: 1px;
+  }
+  & .author-status {
+    font-size: 0.55rem;
+  }
+  & .author-img {
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    width: 1.6rem;
+    max-width: 100%;
+    height: 75%;
+  }
+}
