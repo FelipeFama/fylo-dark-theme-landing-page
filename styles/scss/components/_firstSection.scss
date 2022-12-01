@@ -1,0 +1,30 @@
+.first-section {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 6.4rem;
+  row-gap: 7.5rem;
+  width: 65%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 12rem;
+  & section {
+    flex-direction: column;
+    gap: 1.7rem;
+    justify-content: center;
+    align-items: center;
+  }
+  & section div {
+    width: 93%;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+  & h2 {
+    font-weight: 700;
+    font-size: 1.4rem;
+  }
+  & img {
+    max-width: 20%;
+    margin: 0 auto;
+  }
+}
