@@ -1,0 +1,37 @@
+.intro-text {
+  text-align: center;
+  background-color: $dark-blue-intro;
+  background-image: url(/assets/images/bg-curvy-desktop.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  & .intro-section {
+    flex-direction: column;
+    gap: 2.6rem;
+    margin: 0 auto;
+    padding-top: 0.4rem;
+    width: 50%;
+  }
+  & h1 {
+    font-size: 2.6rem;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    line-height: 4.1rem;
+  }
+  & p {
+    font-size: 1.4rem;
+    padding: 0 3.5rem;
+    line-height: 2rem;
+    word-spacing: 2px;
+  }
+  & a {
+    background: linear-gradient(90deg, $cyan, $blue);
+    color: $white;
+    border-radius: 35px;
+    padding: 1.4rem;
+    width: 35%;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+}
