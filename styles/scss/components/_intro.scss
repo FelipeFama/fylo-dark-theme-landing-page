@@ -33,5 +33,9 @@
     margin: 0 auto;
     font-weight: 700;
     font-size: 1.1rem;
+    transition: all ease-in-out 0.7s;
+    &:hover {
+      background: linear-gradient(90deg, $cyan, $cyan);
+    }
   }
 }

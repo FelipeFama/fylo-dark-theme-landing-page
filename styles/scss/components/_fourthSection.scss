@@ -51,6 +51,10 @@
     width: 28%;
     color: $white;
     background: linear-gradient(90deg, $cyan, $blue);
+    transition: all ease-in-out 0.7s;
+    &:hover {
+      background: linear-gradient(90deg, $cyan, $cyan);
+    }
   }
   & .error-msg {
     display: none;

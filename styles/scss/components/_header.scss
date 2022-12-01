@@ -31,5 +31,9 @@ header {
   }
   & .menu li {
     cursor: pointer;
+    transition: all ease-in-out 0.7s;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }

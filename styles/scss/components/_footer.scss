@@ -59,9 +59,15 @@ footer {
           gap: 1rem;
         }
         & a {
+          width: 6rem;
+          cursor: pointer;
           color: $white;
           font-size: 1.1rem;
           font-weight: 400;
+          transition: all ease-in-out 0.3s;
+          &:hover {
+            font-weight: bold;
+          }
         }
       }
       & .socials {
@@ -76,6 +82,11 @@ footer {
           width: 0.9rem;
           height: 0.9rem;
           padding: 0.5rem;
+          transition: all ease-in-out 0.7s;
+          &:hover {
+            color: $cyan;
+            border: 1px solid $cyan;
+          }
         }
       }
     }
