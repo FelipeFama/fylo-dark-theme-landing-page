@@ -27,4 +27,8 @@
     max-width: 20%;
     margin: 0 auto;
   }
+  @media screen and (max-width: 1110px) {
+    grid-template-columns: 1fr;
+    width: 360px;
+  }
 }

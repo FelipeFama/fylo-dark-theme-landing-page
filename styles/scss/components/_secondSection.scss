@@ -50,9 +50,17 @@
       height: 1px;
       background-color: $cyan;
       transition: all ease-in-out 0.7s;
+      @media screen and (max-width: 1110px) {
+        width: 23%;
+      }
     }
     &:hover::after {
       background-color: $white;
     }
+  }
+  @media screen and (max-width: 1110px) {
+    flex-direction: column;
+    gap: initial;
+    width: initial;
   }
 }

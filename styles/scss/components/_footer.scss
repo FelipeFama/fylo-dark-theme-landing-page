@@ -16,6 +16,10 @@ footer {
   & .footer-logo {
     max-width: 14%;
     padding-left: 2.55rem;
+    @media screen and (max-width: 1110px) {
+      padding: initial;
+      max-width: 40%;
+    }
   }
   & .menu-section {
     flex-direction: row;
@@ -36,6 +40,13 @@ footer {
       }
       & .location-icon {
         height: 28%;
+      }
+      @media screen and (max-width: 1110px) {
+        padding: initial;
+        width: initial;
+        & p {
+          width: 23rem;
+        }
       }
     }
     & .second-menu-section {
@@ -69,6 +80,11 @@ footer {
             font-weight: bold;
           }
         }
+        @media screen and (max-width: 1110px) {
+          flex-direction: column;
+          padding: initial;
+          width: initial;
+        }
       }
       & .socials {
         flex-direction: row;
@@ -89,6 +105,22 @@ footer {
           }
         }
       }
+      @media screen and (max-width: 1110px) {
+        flex-direction: column;
+        padding: initial;
+        width: initial;
+      }
+    }
+  }
+  @media screen and (max-width: 1110px) {
+    .menu-section,
+    .second-menu-section,
+    .menu-pages {
+      flex-direction: column;
+      text-align: left;
+      gap: 2rem;
     }
   }
 }
+
+

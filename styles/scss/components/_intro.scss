@@ -11,6 +11,9 @@
     margin: 0 auto;
     padding-top: 0.4rem;
     width: 50%;
+    @media screen and (max-width: 1110px) {
+      width: 85%;
+    }
   }
   & h1 {
     font-size: 2.6rem;
@@ -36,6 +39,9 @@
     transition: all ease-in-out 0.7s;
     &:hover {
       background: linear-gradient(90deg, $cyan, $cyan);
+    }
+    @media screen and (max-width: 1110px) {
+      width: 50%;
     }
   }
 }
