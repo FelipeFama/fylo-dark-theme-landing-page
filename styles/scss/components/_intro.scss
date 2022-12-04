@@ -1,7 +1,7 @@
 .intro-text {
   text-align: center;
   background-color: $dark-blue-intro;
-  background-image: url(/assets/images/bg-curvy-desktop.svg);
+  background-image: url(./assets/images/bg-curvy-desktop.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -51,6 +51,6 @@
     }
   }
   @media screen and (max-width: 800px) {
-    background-image: url(/assets/images/bg-curvy-mobile.svg);
+    background-image: url(./assets/images/bg-curvy-mobile.svg);
   }
 }

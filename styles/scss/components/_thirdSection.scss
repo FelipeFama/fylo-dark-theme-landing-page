@@ -26,7 +26,7 @@
     &:first-child {
       position: relative;
       &::before {
-        content: url(/assets/images/bg-quotes.png);
+        content: url(./assets/images/bg-quotes.png);
         background-size: 4rem;
         background-repeat: no-repeat;
         position: absolute;
