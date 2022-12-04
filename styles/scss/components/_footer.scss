@@ -12,13 +12,17 @@ footer {
     justify-content: space-between;
     margin-top: 10rem;
     background-color: $dark-blue-footer;
+    @media screen and(max-width: 1200px) {
+      margin-top: 14rem;
+    }
   }
   & .footer-logo {
     max-width: 14%;
     padding-left: 2.55rem;
-    @media screen and (max-width: 1110px) {
+    @media screen and (max-width: 1200px) {
       padding: initial;
-      max-width: 40%;
+      max-width: 30%;
+      margin-top: 3rem;
     }
   }
   & .menu-section {
@@ -40,12 +44,15 @@ footer {
       }
       & .location-icon {
         height: 28%;
+        @media screen and(max-width: 1200px) {
+          height: 24%;
+        }
       }
-      @media screen and (max-width: 1110px) {
+      @media screen and (max-width: 1200px) {
         padding: initial;
         width: initial;
         & p {
-          width: 23rem;
+          width: 21rem;
         }
       }
     }
@@ -80,7 +87,7 @@ footer {
             font-weight: bold;
           }
         }
-        @media screen and (max-width: 1110px) {
+        @media screen and (max-width: 1200px) {
           flex-direction: column;
           padding: initial;
           width: initial;
@@ -91,6 +98,10 @@ footer {
         gap: 1.25rem;
         text-align: center;
         align-items: center;
+        @media screen and (max-width: 1200px) {
+          position: relative;
+          left: 12rem;
+        }
         & i {
           color: $white;
           border-radius: 50%;
@@ -105,14 +116,14 @@ footer {
           }
         }
       }
-      @media screen and (max-width: 1110px) {
+      @media screen and (max-width: 1200px) {
         flex-direction: column;
         padding: initial;
         width: initial;
       }
     }
   }
-  @media screen and (max-width: 1110px) {
+  @media screen and (max-width: 1200px) {
     .menu-section,
     .second-menu-section,
     .menu-pages {
@@ -122,5 +133,3 @@ footer {
     }
   }
 }
-
-

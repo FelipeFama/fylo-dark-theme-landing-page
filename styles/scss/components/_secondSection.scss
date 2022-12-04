@@ -19,6 +19,9 @@
       width: 80%;
       font-weight: 700;
       font-size: 2.9rem;
+      @media screen and (max-width: 1110px) {
+        font-size: 1.9rem;
+      }
     }
     & p {
       font-size: 1.1rem;
@@ -37,6 +40,9 @@
       font-size: 1.26rem;
       color: $cyan;
       transition: all ease-in-out 0.7s;
+      @media screen and (max-width: 1110px) {
+        font-size: 1rem;
+      }
       &:hover {
         color: $white;
       }
@@ -51,7 +57,7 @@
       background-color: $cyan;
       transition: all ease-in-out 0.7s;
       @media screen and (max-width: 1110px) {
-        width: 23%;
+        width: 11rem;
       }
     }
     &:hover::after {
@@ -60,6 +66,7 @@
   }
   @media screen and (max-width: 1110px) {
     flex-direction: column;
+    align-items: center;
     gap: initial;
     width: initial;
   }

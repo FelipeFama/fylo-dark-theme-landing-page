@@ -6,6 +6,10 @@ header {
   height: 55rem;
   max-height: 100%;
   background-color: $dark-blue-intro;
+  @media screen and (max-width: 800px) {
+    height: 36rem;
+    background-size: 28rem;
+  }
   & .logo {
     background-image: url("/assets/images/logo.svg");
     background-repeat: no-repeat;
@@ -21,6 +25,9 @@ header {
     align-items: center;
     text-align: center;
     padding: 3.8rem 5.2rem;
+    @media screen and (max-width: 1110px) {
+      padding: 2rem;
+    }
   }
   & .menu {
     flex-direction: row;
