@@ -20,6 +20,8 @@
 
 - Semantic HTML5 markup
 
+- SASS preprocessor
+
 - CSS custom properties
 
 - Grid and Flex
